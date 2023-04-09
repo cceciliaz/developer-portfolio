@@ -11,7 +11,7 @@ html, body{
 .home{
     width: 100%;
     height: 800px;
-    background-image: url(/img/img-p.avif);
+    background-image: url(/img/img-p2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ html, body{
     margin-left: 15px;
 }
 #menu > a:hover{
-    background-color: aquamarine;
+    background-color: #8C5245;
 }
 .img-header{
     display: flex;
@@ -46,6 +46,8 @@ html, body{
     box-shadow: 20px -10px 35px white;
 }
 .content1{
+    background-color: #0C7EF2;
+    color: #fff;
     width: 100%;
     height: 700px;
     display: flex;
@@ -83,4 +85,30 @@ html, body{
     color: #fff;
     background-color: black;
     padding: 10px 50px;
+}
+.main-2 > a:hover{
+    background-color: #ffffff;
+    color: #fff;
+}
+.content2{
+    background-color: #0C7EF2;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.item{
+    background-color: #0801E6;
+    color: #fff;
+    height: 80%;
+    margin: 1%;
+    text-align: center;
+}
+.item > h2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.item > img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
 }
