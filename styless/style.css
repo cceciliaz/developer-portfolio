@@ -42,3 +42,45 @@ html, body{
     width: 300px;
     margin-left: 25px;
 }
+.img-h > img:hover{
+    box-shadow: 20px -10px 35px white;
+}
+.content1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.img-main{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-main > img{
+    width: 400px;
+    margin-top:30px;
+}
+.main-2{
+    width: 50%;
+    height: 700px;
+    display: fle;
+}
+.main-2 > h2{
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    margin-top: 160px;
+    margin-bottom: 25px;
+    font-size: 55px;
+}
+.main-2 > p{
+    width: 70%;
+    height: 200px;
+}
+.main-2 > a{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px 50px;
+}
